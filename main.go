@@ -5,6 +5,6 @@ import "fmt"
 
 
 func main() {
-    fmt.Println("Дима имба")
+    fmt.Println("Hello Wordl")
 }
 
