@@ -4,7 +4,7 @@ pipeline {
 	stages {
 		stage('Build')  { 
 		steps {	
-			sh 'docker build --no-cache -t git .'}
+			sh 'docker build -t git .'}
 		}
 		stage('run') {
                 steps {
