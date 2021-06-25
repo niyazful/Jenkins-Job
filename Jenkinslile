@@ -4,11 +4,11 @@ pipeline {
 	stages {
 		stage('Build')  { 
 		steps {	
-			sh 'docker build -t Git .'}
+			sh 'docker build -t git .'}
 		}
 		stage('run') {
                 steps {
-			sh 'docker run --rm --name Hello Git'}		
+			sh 'docker run --rm --name Hello git'}		
 		}
            
 	}
