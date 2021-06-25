@@ -3,11 +3,11 @@ pipeline {
 
 	stages {
 		stage('Build')  { 
-			sh "go build ."
+			sh 'go build .'
 		}
 
 		stage('run') {
-			sh "Jenkins-Job"		
+			sh './Jenkins-Job'		
 		}
            
 	}
