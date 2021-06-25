@@ -10,7 +10,7 @@ pipeline {
 		}
 
 		stage('run') {
-                sh "Jenkins-job"		
+                sh "Jenkins-Job"		
 			}
            
 		}
