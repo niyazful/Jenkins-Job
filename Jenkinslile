@@ -1,2 +1,18 @@
-“Hello World”
+pipeline { 
+    
+
+
+
+    stages {
+        stage('Build')  { 
+	    sh "go build ."
+			
+		}
+
+		stage('run') {
+                sh "Jenkins-job"		
+			}
+           
+		}
+}
 
