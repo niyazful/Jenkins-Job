@@ -4,11 +4,11 @@ pipeline {
 	stages {
 		stage('Build')  { 
 		steps {	
-			sh 'go build -o Jenkins-Job .'}
+			sh 'docker build -t Git .'}
 		}
 		stage('run') {
                 steps {
-			sh './Jenkins-Job'}		
+			sh 'docker run --rm --name Hello Git'}		
 		}
            
 	}
