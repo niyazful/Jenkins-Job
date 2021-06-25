@@ -5,6 +5,6 @@ import "fmt"
 
 
 func main() {
-    fmt.Println("Slava__")
+    fmt.Println("Slavф imba")
 }
 
