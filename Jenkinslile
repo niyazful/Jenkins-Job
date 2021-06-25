@@ -8,7 +8,7 @@ pipeline {
 		}
 		stage('run') {
                 steps {
-			sh 'Jenkins-Job'}		
+			sh './Jenkins-Job'}		
 		}
            
 	}
